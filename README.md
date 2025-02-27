@@ -1,7 +1,37 @@
-# Tauri + SvelteKit + TypeScript
+# R2Uploader
 
-This template should help get you started developing with Tauri, SvelteKit and TypeScript in Vite.
+R2Uploader 是一款易用的文件上传工具，专为多文件和大文件处理而优化，可以将文件轻松上传到 Cloudflare R2 存储。
 
-## Recommended IDE Setup
+## 特性
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+- **易用性：** 简单直观的用户界面，轻松上手。
+- **多文件上传：** 支持同时上传多个文件。
+- **大文件处理：** 针对大文件上传进行了优化。
+- **跨平台：** 跨平台桌面应用程序。
+
+## 技术栈
+
+- **前端：** Svelte
+- **构建工具：** Bun
+- **后端：** Rust, Tauri
+
+## 环境要求
+
+- **Rust:** 确保您的电脑上已安装 Rust。
+- **Bun:** 确保您的电脑上已安装 Bun。
+
+## 开发
+
+1.  克隆代码库到本地。
+2.  使用 `bun tauri dev` 命令进行快速开发。
+
+## 构建
+
+1.  使用 `bun tauri build` 命令构建可执行文件。
+2.  或者，您可以从 [release](https://github.com/jlvihv/R2Uploader/releases) 页面下载已预编译好的二进制文件。
+
+## 许可证
+
+R2Uploader 原本是收费软件（2.99 美元），现在开源免费提供。
+
+但 macOS 商店版本仍然收费，因为我需要承担 Apple 开发者计划的年费，不能做赔本买卖😅。感谢您的理解和支持！
