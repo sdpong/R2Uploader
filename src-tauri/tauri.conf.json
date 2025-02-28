@@ -28,7 +28,7 @@
     "copyright": "Copyright © 2025 ZeroRust",
     "macOS": {
       "entitlements": "./Entitlements.plist",
-      "signingIdentity": "EB681D39B9F2516FFF4CE7DA2DA1D88DB1F2953C"
+      "signingIdentity": "4A55B49AA13A9A9F15C52DF4756FA40E5D32476A"
     },
     "icon": [
       "icons/32x32.png",
